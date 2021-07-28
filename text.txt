@@ -1,0 +1,56 @@
+Dear candidate,
+
+Thanks for applying for the role of junior front-end developer at Utopiops.
+
+As part of our hiring process, we send an assignment to the selected candidates, including you. 
+The candidates that are assessed positively at this round will be interviewed through Google Meet, Skype or phone call and the final result will be available shortly after that.
+The whole process is expected to finish by the end of next week.
+
+In this assignment your understanding of the following key points in regards with React will be assessed:
+* Implementing components
+* Asynchronous programming
+* Applying styles to components
+* Routing
+* Forms and validations
+* Redux (optional)
+Also, you will be assessed based on these general skills:
+* The ability to implement a solution despite having partial knowledge of the problem and its scope
+* The ability to read and understand documentations
+* The ability to read English texts (hence this email is in English)
+
+Description
+One of the common scenarios in many  applications is to fetch some data from a REST API and render some component(s) based on the response received from the server.
+Therefore, you are tasked to implement a simple application that shows a list of users and their posts and also provides a form to update each post, with two routes:
+1) the root path: in this path the list of Users should be fetched from the remote server and rendered as separate cards. Clicking on each card should show the list of Posts for the user.
+2) the edit path: clicking on each Post should navigate the user to the edit page where you can edit the post.
+
+The following link shows a rough sketch of the application to give you some idea how everything should look like and help you better understand the navigations between routes.
+
+https://www.figma.com/proto/9inaIiXQVWTyRCyfar2e1C/Untitled?node-id=2%3A56&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A114&show-proto-sidebar=1
+https://www.figma.com/file/9inaIiXQVWTyRCyfar2e1C/Untitled?node-id=0%3A1
+
+Please notice you need to use the following APIs respectively in order to get the list of Posts for all the Users and edit a Post:
+
+https://jsonplaceholder.typicode.com/posts
+https://jsonplaceholder.typicode.com/posts/1
+
+all the details about these mock APIs are available at https://jsonplaceholder.typicode.com/guide/.
+
+Notes
+The styles don't need to accurately imitate the sketch and it's enough if your implementation is close enough to the wire frame. 
+Also, you can optionally add some functionality based on Redux to this application as an extra point.
+Last but not least, it is better to submit your incomplete implementation rather than not doing it at all, as your  partial implementation might be good enough.
+
+In order to hand in your solution, you need to store your code in a public repository (Github/Gitlab preferably) and share the link to your repository with us.
+
+Deadline
+While implementing this application doesn't take more than a few hours, you can submit your solution by the end of Friday 30th of July. Also, your assessment starts as soon as we receive your code, 
+so the earlier you send your solution the better.
+
+Should you have any questions please do not hesitate to reach out via this email
+
+Wish you luck and hope to hear from you soon
+
+--
+Mohsen Kamrani
+Founder
