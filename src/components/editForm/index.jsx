@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import { UserPostDetails, Users } from "../../Api/api";
 import { useState, useEffect } from "react";
-import { useForm } from "react-hook-form";
 import axios from "axios";
 
 const Index = () => {
